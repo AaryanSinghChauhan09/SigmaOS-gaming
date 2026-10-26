@@ -1,0 +1,18 @@
+[package]
+name = "sigmaos-gaming"
+version = "0.1.0"
+edition = "2021"
+authors = ["SigmaOS Project"]
+description = "Gaming support and optimization"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-gaming"
+readme = "README.md"
+keywords = ["gaming", "game", "optimization"]
+categories = ["games"]
+
+[dependencies]
+sigmaos-kernel = { version = "0.1", path = "../SigmaOS-kernel" }
+sigmaos-gpu = { version = "0.1", path = "../SigmaOS-gpu" }
+
+[profile.release]
+opt-level = 3
