@@ -3,4 +3,6 @@
 
 pub mod gaming;
 
-pub use gaming::GamingManager;
+pub use gaming::GameModeManager;
+pub use gaming::GameModeManager as GamingManager;
+pub use gaming::*;
