@@ -1,8 +1,13 @@
-# SigmaOS-gaming
+# SigmaOS Gaming
 
-This repository is a SigmaOS component checkout. Its implementation scope and integration status are tracked in the central SigmaOS component registry.
+This crate exports `GameModeManager` and modules named for tools and services
+including Steam, Heroic, Gamescope, Wine, MangoHud, and Lutris. These modules
+are API surfaces; their presence does not establish that games can be installed
+or launched, overlays work, or device tuning is applied on a host. The
+repository needs per-backend workflow and integration evidence before making
+those readiness claims.
 
-## Development
+## License
 
-Review the repository history and existing source-level checks before changing behavior. Keep changes focused, document user-visible workflows, and update the central registry only when implementation evidence supports a status change.
+See [`LICENSE`](LICENSE) and [`Cargo.toml`](Cargo.toml).
 
