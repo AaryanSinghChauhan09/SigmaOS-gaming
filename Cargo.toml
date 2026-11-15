@@ -11,8 +11,10 @@ keywords = ["gaming", "game", "optimization"]
 categories = ["games"]
 
 [dependencies]
-sigmaos-kernel = { version = "0.1", path = "../SigmaOS-kernel" }
-sigmaos-gpu = { version = "0.1", path = "../SigmaOS-gpu" }
 
 [profile.release]
 opt-level = 3
+
+[lib]
+name = "sigmaos_gaming"
+path = "src/lib.rs"
